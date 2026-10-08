@@ -1,0 +1,61 @@
+{
+    "auth": {
+        "login": {
+            "title": "Login",
+            "heading": "Acesse sua conta",
+            "description": "Informe seu e-mail e senha para continuar.",
+            "submit": "Entrar",
+            "noAccount": "Não tem uma conta?",
+            "registerLink": "Criar conta",
+            "registered": "Conta criada com sucesso! Entre com seu e-mail e senha."
+        },
+        "register": {
+            "title": "Criar conta",
+            "heading": "Crie sua conta",
+            "description": "Preencha os dados abaixo para começar.",
+            "submit": "Criar conta",
+            "hasAccount": "Já tem uma conta?",
+            "loginLink": "Entrar"
+        }
+    },
+    "fields": {
+        "name": {
+            "attribute": "nome",
+            "label": "Nome",
+            "placeholder": "Seu nome completo"
+        },
+        "email": {
+            "attribute": "e-mail",
+            "label": "E-mail",
+            "placeholder": "voce{'@'}empresa.com.br"
+        },
+        "password": {
+            "attribute": "senha",
+            "label": "Senha",
+            "placeholder": "Sua senha",
+            "newPlaceholder": "Crie uma senha",
+            "hint": "Use pelo menos {min} caracteres.",
+            "show": "Mostrar senha",
+            "hide": "Ocultar senha"
+        },
+        "passwordConfirmation": {
+            "attribute": "confirmação de senha",
+            "label": "Confirmar senha",
+            "placeholder": "Repita a senha"
+        }
+    },
+    "layout": {
+        "copyright": "© {year} {appName}",
+        "logout": "Sair"
+    },
+    "validation": {
+        "required": "O campo {attribute} é obrigatório.",
+        "email": "O campo {attribute} deve ser um endereço de e-mail válido.",
+        "min": "O campo {attribute} deve ter pelo menos {min} caracteres.",
+        "max": "O campo {attribute} não pode ser superior a {max} caracteres.",
+        "passwordMismatch": "As senhas não conferem."
+    },
+    "dashboard": {
+        "title": "Painel"
+    }
+}
