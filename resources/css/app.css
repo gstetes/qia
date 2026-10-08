@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+ * Tokens semânticos de cor (canais RGB para suportar modificadores de opacidade, ex: bg-primary/10).
+ * Pares cor/foreground validados para contraste WCAG AA (>= 4.5:1).
+ */
+@layer base {
+    :root {
+        --color-background: 255 250 251; /* Snow */
+        --color-foreground: 19 21 21; /* Onyx */
+
+        --color-surface: 255 255 255;
+        --color-surface-foreground: 19 21 21;
+
+        --color-muted: 240 240 237; /* neutral-100 */
+        --color-muted-foreground: 99 100 96; /* neutral-600 */
+
+        --color-border: 225 225 222; /* neutral-200 */
+        --color-input: 206 206 202; /* neutral-300 */
+        --color-ring: 51 153 137; /* Verdigris */
+
+        --color-primary: 27 124 111; /* primary-600 (Verdigris escurecido) */
+        --color-primary-foreground: 255 255 255; /* branco — 5.1:1 */
+
+        --color-secondary: 43 44 40; /* Graphite */
+        --color-secondary-foreground: 255 250 251; /* Snow — 13.6:1 */
+
+        --color-accent: 125 226 209; /* Pearl Aqua */
+        --color-accent-foreground: 19 21 21; /* Onyx — 11.9:1 */
+
+        --color-success: 21 128 61;
+        --color-success-foreground: 255 255 255;
+        --color-warning: 245 158 11;
+        --color-warning-foreground: 19 21 21;
+        --color-danger: 220 38 38;
+        --color-danger-foreground: 255 255 255;
+        --color-info: 37 99 235;
+        --color-info-foreground: 255 255 255;
+    }
+
+    body {
+        @apply bg-background text-foreground;
+    }
+}

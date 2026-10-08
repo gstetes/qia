@@ -2,19 +2,27 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vite build",
-        "dev": "vite"
+        "build": "vue-tsc --build && vite build",
+        "dev": "vite",
+        "typecheck": "vue-tsc --build"
     },
     "devDependencies": {
         "@inertiajs/vue3": "^3.8.0",
+        "@types/node": "^26.6.4",
         "@vitejs/plugin-vue": "^6.0.9",
+        "@vue/tsconfig": "^0.9.1",
         "autoprefixer": "^10.4.20",
         "axios": "^1.7.4",
         "concurrently": "^9.0.1",
         "laravel-vite-plugin": "^1.2.0",
+        "lucide-vue-next": "^1.0.0",
         "postcss": "^8.4.47",
         "tailwindcss": "^3.4.13",
+        "typescript": "~6.0.3",
         "vite": "^6.0.11",
-        "vue": "^3.5.43"
+        "vue": "^3.5.43",
+        "vue-i18n": "^11.4.13",
+        "vue-tsc": "^3.3.12",
+        "zod": "^4.6.5"
     }
 }
